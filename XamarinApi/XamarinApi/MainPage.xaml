@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:XamarinApi.Views"
+             x:Class="XamarinApi.MainPage"
+             Title="GT7">
+        
+    <!-- Display a bottom tab bar containing two tabs -->
+    <TabBar>
+        <ShellContent Title="Main"                      
+                      ContentTemplate="{DataTemplate views:Principal}" />
+    </TabBar>
+
+</Shell>
